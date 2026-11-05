@@ -2,6 +2,8 @@
 
 Fernando Henrique de Souza Marques · Revisão de 05/11/2026
 
+[Visualizar a apresentação web da Atividade 6](https://fernandomarquesaluno-svg.github.io/portfolio-artefatos-software/#atividade-6) — tabelas técnicas e fluxos resumidos, integrados ao portfólio acadêmico.
+
 ## Objetivo e método
 
 Comparar **SBSeg 2026, USENIX Security 2025 e MODELS 2025**, a partir das instruções oficiais. Os três avaliam artefatos associados a trabalhos científicos. A comparação anterior incluía MA-MPS, cujo objeto é o processo organizacional, e uma descrição ampla de DSR. A seleção atual atende de modo mais direto ao enunciado.
