@@ -67,6 +67,8 @@ flowchart TD
 
 ## 4. Tabela comparativa
 
+A [tabela técnica ampliada](TABELA_COMPARATIVA.md) detalha entrada, etapas, evidências, preservação, selos, vantagens e limitações. A síntese abaixo facilita a apresentação.
+
 | Dimensão | SBSeg 2026 | USENIX Security 2025 | MODELS 2025 |
 |---|---|---|---|
 | Objeto comum | Artefato de artigo | Artefato de artigo | Artefato de artigo |
