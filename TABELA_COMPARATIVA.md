@@ -1,6 +1,6 @@
 # Tabela técnica comparativa — Tarefa 6
 
-Fernando Henrique de Souza Marques · 05/11/2026
+Fernando Henrique de Souza Marques · Revisão em 06/11/2026
 
 **Objeto:** processos de avaliação de artefatos científicos de três eventos. As células sintetizam as regras publicadas nas fontes oficiais; vantagens e limitações ao final são análise do autor, não critérios oficiais. Os selos não são intercambiáveis.
 
@@ -9,7 +9,7 @@ Fernando Henrique de Souza Marques · 05/11/2026
 | Dimensão | SBSeg 2026 | USENIX Security 2025 | MODELS 2025 |
 |:--|:--|:--|:--|
 | Objeto | Artefato relacionado a artigo científico, com pacote e documentação para avaliação. | Artefato de artigo aceito; verificação de disponibilidade e avaliação posterior facultativa. | Artefato associado a artigo aceito, submetido à trilha de avaliação. |
-| Entrada examinada | Artigo, repositório/pacote, documentação e instruções de instalação e execução. | Artigo aceito, artefato e local de preservação; para avaliação adicional, apêndice de artefato e instruções. | Pacote do artefato, README, arquivo STATUS e indicação dos selos solicitados. |
+| Entrada examinada | Artigo, repositório/pacote, documentação e instruções de instalação e execução. | Artigo aceito, artefato e local de preservação; para avaliação adicional, apêndice de artefato e instruções. | Artigo aceito em PDF e pacote do artefato, com README e STATUS indicando os selos solicitados. |
 | Etapas | Revisão inicial **r1** → parecer por critério → rebuttal dos autores → **r2-decision** → decisão e divulgação. | **Fase 1:** disponibilidade antes da versão final do artigo, com exceções justificadas. **Fase 2:** avaliação facultativa de funcionamento/reprodução, com checagem, interação, execução e decisão. | Submissão → checagem inicial (“kick the tires”) → comunicação e eventuais correções → avaliação por pelo menos dois revisores → decisão. |
 | Papel dos autores | Disponibilizar o pacote e responder ao parecer na fase de rebuttal. | Depositar material; esclarecer problemas durante a avaliação opcional. | Preparar pacote e STATUS; responder impedimentos apontados na checagem. |
 | Natureza da execução | Revisores inspecionam e executam o que for necessário para fundamentar os selos pedidos. | Na fase 2, uso do artefato para testar funcionalidade e, se solicitado, resultados. | Revisores usam o artefato conforme as instruções para avaliar os critérios solicitados. |
@@ -23,8 +23,8 @@ Fernando Henrique de Souza Marques · 05/11/2026
 | Funcionalidade | **F — Funcional:** evidências de execução de ao menos algumas funcionalidades; não exige, por si só, reproduzir todos os resultados. | **Functional:** funcionamento verificado na avaliação opcional. | **Evaluated—Functional:** o artefato funciona para o uso proposto; distinguido de Available. |
 | Qualidade para uso futuro | **S — Sustentável:** organização e documentação que facilitem entendimento e continuidade. | Não há selo homônimo a S nesta comparação; evitar equivalência automática. | **Evaluated—Reusable:** considera potencial de reúso, distinto do S do SBSeg. |
 | Reprodução de resultados | **R — Reprodutível:** reprodução das principais reivindicações do artigo com evidência. | **Results Reproduced:** resultados do artigo examinados na avaliação opcional. | **Results Validated** não é concedido nesta etapa de avaliação. |
-| Evidência mínima de execução | Comandos, saídas e observação das funções ligadas ao selo F; experimentos principais para R. | Artefato usado pelos avaliadores, instruções e saídas que sustentem os selos solicitados. | Execução e documentação suficientes para o selo solicitado, registradas pelos avaliadores. |
-| Preservação | Repositório estável pode atender à política da edição; seguir a instrução vigente. | Arquivo de preservação permanente; GitHub isolado não satisfaz essa exigência. | Arquivo permanente com DOI para a versão avaliada. |
+| Evidência mínima de execução | Comandos, saídas e observação das funções ligadas ao selo F; experimentos principais para R. | Artefato, apêndice e instruções com execução pelo comitê; resultados avaliados segundo os selos solicitados. | Execução conforme README; para software no nível Functional, requisitos de ambiente em REQUIREMENTS e exemplo de uso. |
+| Preservação | Repositório estável pode atender à política da edição; seguir a instrução vigente. | Arquivo de preservação permanente; GitHub isolado não satisfaz essa exigência. | Para o selo Available: depósito permanente, DOI e arquivo LICENSE com direitos de distribuição. |
 | Impedimentos e correções | Parecer r1 e resposta dos autores antes da decisão r2. | Checagem e discussão de impedimentos com os autores na fase 2. | Checagem inicial comunica falhas de empacotamento/execução e admite correções. |
 
 ## Síntese crítica
@@ -39,8 +39,16 @@ Fernando Henrique de Souza Marques · 05/11/2026
 
 ¹ Interpretações analíticas desta comparação, não juízos oficiais dos eventos. **F ≠ R; S ≠ Reusable; R ≠ Results Reproduced por mera semelhança de nome.** É preciso aplicar a redação e o procedimento de cada edição.
 
+## Critério de comparabilidade e alcance do estudo
+
+Os três eventos aplicam **avaliação por pares de artefatos associados a publicações científicas**. Por isso, é possível comparar **entrada, preparação, revisão, interação, evidências e decisão**. Isso não torna seus selos equivalentes: há diferenças de nomenclatura, condições para obter cada selo e estágio editorial.
+
+**Leitura correta dos resultados:** a matriz apresenta *requisitos e procedimentos*, não resultados de avaliações executadas neste trabalho. As linhas “vantagem” e “limitação” são análise do autor sobre características observadas. O enunciado permite processos nacionais ou internacionais; não há restrição geográfica.
+
+**Rastreabilidade dos fluxos:** SBSeg 2026 usa revisão e resposta dos autores; USENIX Security 2025 separa política de disponibilidade e etapa prática opcional; MODELS 2025 emprega checagem inicial antes da avaliação dos selos. Os fluxogramas completos, com decisões explícitas, constam do [README](README.md).
+
 ## Fontes oficiais
 
 - [SBSeg 2026 — instruções de revisão](https://doc-artefatos.github.io/sbseg2026/revinstrucoes.html) e [submissão](https://doc-artefatos.github.io/sbseg2026/subinstrucoes.html).
-- [USENIX Security 2025 — Call for Artifacts](https://www.usenix.org/conference/usenixsecurity25/call-for-artifacts), [submissão](https://secartifacts.github.io/usenixsec2025/instructions) e [guia de avaliação](https://secartifacts.github.io/usenixsec2025/guide).
+- [USENIX Security 2025 — Call for Artifacts](https://www.usenix.org/conference/usenixsecurity25/call-for-artifacts), [submissão](https://secartifacts.github.io/usenixsec2025/instructions), [selos](https://secartifacts.github.io/usenixsec2025/badges) e [guia de avaliação](https://secartifacts.github.io/usenixsec2025/guide).
 - [MODELS 2025 — Artifact Evaluation](https://conf.researchr.org/track/models-2025/models-2025-artifact-evaluation).
