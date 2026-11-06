@@ -25,4 +25,4 @@
 
 **Qual o limite do trabalho?** Análise documental, sem execução dos artefatos e sem atribuição de selos oficiais.
 
-**Observação:** O enunciado original da disciplina não foi recuperado nesta auditoria, então restrições adicionais não podem ser afirmadas.
+**Observação:** O roteiro segue o enunciado original fornecido pelo aluno em 06/11/2026, que não exige processos exclusivamente brasileiros.
