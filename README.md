@@ -10,11 +10,11 @@ Comparar **SBSeg 2026, USENIX Security 2025 e MODELS 2025**, a partir das instru
 
 Pesquisa documental assistida por ChatGPT/Codex (OpenAI), que auxiliou a localizar fontes, contrastar critérios e redigir os fluxogramas e a tabela. Documentos consultados em 05 e 06/11/2026. Os fluxos são sínteses didáticas; as decisões administrativas seguem cada edital. Não foram conduzidas avaliações oficiais nesses eventos.
 
-## Aderência ao enunciado da Atividade 6 (conferência em 06/11/2026)
+## Rastreabilidade dos elementos da Atividade 6 (revisão de 06/11/2026)
 
-O enunciado solicita pesquisa assistida por IA e comparação de **três processos de avaliação de artefatos**, descritos em artigos científicos ou documentos públicos. **Não exige que os três processos sejam brasileiros.** A escolha de SBSeg 2026, USENIX Security 2025 e MODELS 2025 é, portanto, compatível com o recorte solicitado e mantém comparabilidade: todos avaliam artefatos associados a artigos científicos, sob regras publicadas.
+Os materiais acadêmicos anteriores descrevem a atividade como uma **comparação de três processos de avaliação de artefatos**, com fluxogramas, tabela técnica e análise crítica. **O enunciado primário do professor não foi recuperado nesta auditoria**; portanto, não é possível assegurar que exista ou não uma restrição geográfica. Este trabalho preserva o recorte comparativo já selecionado — SBSeg 2026, USENIX Security 2025 e MODELS 2025 — porque os três avaliam artefatos associados a artigos científicos e possuem regras públicas.
 
-| Exigência do enunciado | Evidência nesta entrega |
+| Elemento da entrega | Evidência publicada |
 |---|---|
 | Três processos identificados e documentados | Seções 1–3 e fontes oficiais de cada edição |
 | Fluxograma completo de cada método (entrada → decisão) | Três diagramas Mermaid nas seções 1–3, incluindo ramificações |
@@ -29,11 +29,11 @@ O enunciado solicita pesquisa assistida por IA e comparação de **três process
 
 - **USENIX Security 2025:** a verificação de disponibilidade integra a política de ciência aberta da edição; a avaliação de funcionalidade e reprodução constitui etapa adicional opcional. GitHub pode servir durante a avaliação, mas **não substitui o arquivamento permanente exigido para a concessão final**. [Chamada](https://www.usenix.org/conference/usenixsecurity25/call-for-artifacts), [instruções](https://secartifacts.github.io/usenixsec2025/instructions) e [definição dos selos](https://secartifacts.github.io/usenixsec2025/badges).
 - **MODELS 2025:** para a submissão inicial, além do artigo aceito, são solicitados **README** e **STATUS**; para Functional, a documentação de ambiente inclui **REQUIREMENTS** quando o artefato é software; para Available, a edição exige preservação e licença adequada. *Results Validated* não é solicitado na avaliação pré-publicação. [Regras da edição](https://conf.researchr.org/track/models-2025/models-2025-artifact-evaluation).
-- **SBSeg 2026:** D/F/S/R são dimensões distintas; F exige evidência de funcionamento, enquanto R depende da reprodução das reivindicações principais. Os fluxos r1 → rebuttal → r2 são sínteses das instruções da trilha, que devem ser consultadas na página da edição: [revisão](https://doc-artefatos.github.io/sbseg2026/revinstrucoes.html).
+- **SBSeg 2026:** o [portal do CTA](https://hotcrp.c3sl.ufpr.br/) confirma as etapas **sbseg26-r1, rebuttal e sbseg26-r2-decision**. A [chamada do SBSeg 2026](https://www.sbseg2026.uff.br/chamadas/sf/) confirma os quatro aspectos de avaliação; como apoio explicativo para os requisitos de execução, consulte as [instruções de revisão do SBSeg 2025](https://doc-artefatos.github.io/sbseg2025/revinstrucoes.html).
 
 ## 1. SBSeg 2026
 
-Entrada: artigo, artefato, README e requisitos. A revisão r1 registra inspeção e execução; o rebuttal permite esclarecimentos; r2-decision decide cada selo. F exige prova de execução de funcionalidades; R exige reproduzir as principais reivindicações. D verifica acesso/documentação e S organização e inteligibilidade. Fonte: [instruções de revisão](https://doc-artefatos.github.io/sbseg2026/revinstrucoes.html).
+Entrada: artigo, artefato, README e requisitos. A revisão r1 registra inspeção e execução; o rebuttal permite esclarecimentos; r2-decision decide cada selo. F exige prova de execução de funcionalidades; R exige reproduzir as principais reivindicações. D verifica acesso/documentação e S organização e inteligibilidade. Fontes: [calendário oficial do CTA](https://hotcrp.c3sl.ufpr.br/) e [SBSeg 2026 — Salão de Ferramentas](https://www.sbseg2026.uff.br/chamadas/sf/).
 
 ```mermaid
 flowchart TD
@@ -110,7 +110,7 @@ A [tabela técnica ampliada](TABELA_COMPARATIVA.md) detalha entrada, etapas, evi
 
 Os três processos relacionam afirmações a evidências e permitem tratar dificuldades de avaliação. Diferem no momento de avaliar, no requisito de preservação e no significado dos selos. Publicar código não comprova seu funcionamento; executar uma amostra não demonstra automaticamente as reivindicações científicas.
 
-Sustentável, Reusable e Results Reproduced não devem ser usados como sinônimos. A escolha da rubrica altera a pergunta avaliativa e a documentação exigida. Para o SecurePath, aplicam-se os quatro critérios do enunciado com referência ao SBSeg; para a Atividade 7, aplicam-se exclusivamente as regras do SBRC 2026, sem importar exigências das outras colunas.
+Sustentável, Reusable e Results Reproduced não devem ser usados como sinônimos. A escolha da rubrica altera a pergunta avaliativa e a documentação exigida. Esta comparação não concede selos a um artefato particular nem deve ser confundida com a execução prática exigida em outras atividades.
 
 ## 6. Registro de apoio de IA
 
@@ -120,9 +120,17 @@ O aluno deve conferir as fontes, explicar os fluxos e validar a síntese antes d
 
 ## Referências
 
-1. SBSeg 2026. [Instruções para revisão](https://doc-artefatos.github.io/sbseg2026/revinstrucoes.html) e [submissão](https://doc-artefatos.github.io/sbseg2026/subinstrucoes.html).
+1. SBSeg 2026. [Portal CTA e calendário](https://hotcrp.c3sl.ufpr.br/), [chamada do Salão de Ferramentas](https://www.sbseg2026.uff.br/chamadas/sf/) e [SBSeg 2025 — instruções detalhadas de revisão, como apoio histórico](https://doc-artefatos.github.io/sbseg2025/revinstrucoes.html).
 2. USENIX Security 2025. [Call for Artifacts](https://www.usenix.org/conference/usenixsecurity25/call-for-artifacts).
 3. Security Research Artifacts. [Submission instructions](https://secartifacts.github.io/usenixsec2025/instructions) e [Evaluator guide](https://secartifacts.github.io/usenixsec2025/guide).
 4. MODELS 2025. [Artifact Evaluation](https://conf.researchr.org/track/models-2025/models-2025-artifact-evaluation).
 
 Fontes revistas em 05 e 06/11/2026. A versão anterior permanece no histórico Git.
+
+## Arquivos complementares para apresentação e entrega
+
+- [Roteiro curto de apresentação](ROTEIRO_APRESENTACAO.md)
+- [Checklist de entrega](CHECKLIST_ENTREGA.md)
+- [Matriz comparativa ampliada](TABELA_COMPARATIVA.md)
+
+O PDF final é disponibilizado separadamente como arquivo de entrega; a plataforma conectada ao GitHub permite aqui editar arquivos textuais, mas não publicar diretamente o PDF binário no repositório.
