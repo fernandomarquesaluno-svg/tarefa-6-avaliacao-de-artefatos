@@ -43,7 +43,7 @@ Fernando Henrique de Souza Marques · Revisão em 06/11/2026
 
 Os três eventos aplicam **avaliação por pares de artefatos associados a publicações científicas**. Por isso, é possível comparar **entrada, preparação, revisão, interação, evidências e decisão**. Isso não torna seus selos equivalentes: há diferenças de nomenclatura, condições para obter cada selo e estágio editorial.
 
-**Leitura correta dos resultados:** a matriz apresenta *requisitos e procedimentos*, não resultados de avaliações executadas neste trabalho. As linhas “vantagem” e “limitação” são análise do autor sobre características observadas. O enunciado primário não foi recuperado nesta auditoria; a existência de exigência geográfica não pôde ser confirmada.
+**Leitura correta dos resultados:** a matriz apresenta *requisitos e procedimentos*, não resultados de avaliações executadas neste trabalho. As linhas “vantagem” e “limitação” são análise do autor sobre características observadas. O enunciado original foi fornecido pelo aluno em 06/11/2026 e não estabelece restrição geográfica.
 
 **Rastreabilidade dos fluxos:** SBSeg 2026 usa revisão e resposta dos autores; USENIX Security 2025 separa política de disponibilidade e etapa prática opcional; MODELS 2025 emprega checagem inicial antes da avaliação dos selos. Os fluxogramas completos, com decisões explícitas, constam do [README](README.md).
 
