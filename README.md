@@ -1,6 +1,6 @@
 # Tarefa 6 — Comparação de três processos de avaliação de artefatos
 
-Fernando Henrique de Souza Marques · Revisão de 05/11/2026
+Fernando Henrique de Souza Marques · Revisão de 06/11/2026
 
 [Visualizar a apresentação web da Atividade 6](https://fernandomarquesaluno-svg.github.io/portfolio-artefatos-software/#atividade-6) — tabelas técnicas e fluxos resumidos, integrados ao portfólio acadêmico.
 
@@ -8,7 +8,28 @@ Fernando Henrique de Souza Marques · Revisão de 05/11/2026
 
 Comparar **SBSeg 2026, USENIX Security 2025 e MODELS 2025**, a partir das instruções oficiais. Os três avaliam artefatos associados a trabalhos científicos. A comparação anterior incluía MA-MPS, cujo objeto é o processo organizacional, e uma descrição ampla de DSR. A seleção atual atende de modo mais direto ao enunciado.
 
-Pesquisa documental assistida por ChatGPT/Codex (OpenAI), que auxiliou a localizar fontes, contrastar critérios e redigir os fluxogramas e a tabela. Consulta em 05/11/2026. Os fluxos são sínteses didáticas; as decisões administrativas seguem cada edital. Não foram conduzidas avaliações oficiais nesses eventos.
+Pesquisa documental assistida por ChatGPT/Codex (OpenAI), que auxiliou a localizar fontes, contrastar critérios e redigir os fluxogramas e a tabela. Documentos consultados em 05 e 06/11/2026. Os fluxos são sínteses didáticas; as decisões administrativas seguem cada edital. Não foram conduzidas avaliações oficiais nesses eventos.
+
+## Aderência ao enunciado da Atividade 6 (conferência em 06/11/2026)
+
+O enunciado solicita pesquisa assistida por IA e comparação de **três processos de avaliação de artefatos**, descritos em artigos científicos ou documentos públicos. **Não exige que os três processos sejam brasileiros.** A escolha de SBSeg 2026, USENIX Security 2025 e MODELS 2025 é, portanto, compatível com o recorte solicitado e mantém comparabilidade: todos avaliam artefatos associados a artigos científicos, sob regras publicadas.
+
+| Exigência do enunciado | Evidência nesta entrega |
+|---|---|
+| Três processos identificados e documentados | Seções 1–3 e fontes oficiais de cada edição |
+| Fluxograma completo de cada método (entrada → decisão) | Três diagramas Mermaid nas seções 1–3, incluindo ramificações |
+| Características técnicas e etapas | [Tabela técnica ampliada](TABELA_COMPARATIVA.md): escopo, entrada, etapas, evidências e critérios |
+| Diferenças e semelhanças | [Tabela técnica ampliada](TABELA_COMPARATIVA.md): síntese crítica |
+| Vantagens e limitações | [Tabela técnica ampliada](TABELA_COMPARATIVA.md): interpretações explicitamente sinalizadas |
+| Fontes verificáveis e uso de IA | Referências e registro de assistência de IA neste README |
+
+**Limite metodológico:** trata-se de análise documental de três *processos de avaliação*, e não de execução dos respectivos artefatos nem de concessão de selos por este trabalho. As regras de cada edição prevalecem sobre os fluxogramas didáticos.
+
+## Precisões técnicas da revisão
+
+- **USENIX Security 2025:** a verificação de disponibilidade integra a política de ciência aberta da edição; a avaliação de funcionalidade e reprodução constitui etapa adicional opcional. GitHub pode servir durante a avaliação, mas **não substitui o arquivamento permanente exigido para a concessão final**. [Chamada](https://www.usenix.org/conference/usenixsecurity25/call-for-artifacts), [instruções](https://secartifacts.github.io/usenixsec2025/instructions) e [definição dos selos](https://secartifacts.github.io/usenixsec2025/badges).
+- **MODELS 2025:** para a submissão inicial, além do artigo aceito, são solicitados **README** e **STATUS**; para Functional, a documentação de ambiente inclui **REQUIREMENTS** quando o artefato é software; para Available, a edição exige preservação e licença adequada. *Results Validated* não é solicitado na avaliação pré-publicação. [Regras da edição](https://conf.researchr.org/track/models-2025/models-2025-artifact-evaluation).
+- **SBSeg 2026:** D/F/S/R são dimensões distintas; F exige evidência de funcionamento, enquanto R depende da reprodução das reivindicações principais. Os fluxos r1 → rebuttal → r2 são sínteses das instruções da trilha, que devem ser consultadas na página da edição: [revisão](https://doc-artefatos.github.io/sbseg2026/revinstrucoes.html).
 
 ## 1. SBSeg 2026
 
@@ -104,4 +125,4 @@ O aluno deve conferir as fontes, explicar os fluxos e validar a síntese antes d
 3. Security Research Artifacts. [Submission instructions](https://secartifacts.github.io/usenixsec2025/instructions) e [Evaluator guide](https://secartifacts.github.io/usenixsec2025/guide).
 4. MODELS 2025. [Artifact Evaluation](https://conf.researchr.org/track/models-2025/models-2025-artifact-evaluation).
 
-Todas consultadas em 05/11/2026. A versão anterior permanece no histórico Git.
+Fontes revistas em 05 e 06/11/2026. A versão anterior permanece no histórico Git.
