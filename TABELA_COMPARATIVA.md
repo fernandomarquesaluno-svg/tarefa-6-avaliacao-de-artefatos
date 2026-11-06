@@ -43,12 +43,12 @@ Fernando Henrique de Souza Marques · Revisão em 06/11/2026
 
 Os três eventos aplicam **avaliação por pares de artefatos associados a publicações científicas**. Por isso, é possível comparar **entrada, preparação, revisão, interação, evidências e decisão**. Isso não torna seus selos equivalentes: há diferenças de nomenclatura, condições para obter cada selo e estágio editorial.
 
-**Leitura correta dos resultados:** a matriz apresenta *requisitos e procedimentos*, não resultados de avaliações executadas neste trabalho. As linhas “vantagem” e “limitação” são análise do autor sobre características observadas. O enunciado permite processos nacionais ou internacionais; não há restrição geográfica.
+**Leitura correta dos resultados:** a matriz apresenta *requisitos e procedimentos*, não resultados de avaliações executadas neste trabalho. As linhas “vantagem” e “limitação” são análise do autor sobre características observadas. O enunciado primário não foi recuperado nesta auditoria; a existência de exigência geográfica não pôde ser confirmada.
 
 **Rastreabilidade dos fluxos:** SBSeg 2026 usa revisão e resposta dos autores; USENIX Security 2025 separa política de disponibilidade e etapa prática opcional; MODELS 2025 emprega checagem inicial antes da avaliação dos selos. Os fluxogramas completos, com decisões explícitas, constam do [README](README.md).
 
 ## Fontes oficiais
 
-- [SBSeg 2026 — instruções de revisão](https://doc-artefatos.github.io/sbseg2026/revinstrucoes.html) e [submissão](https://doc-artefatos.github.io/sbseg2026/subinstrucoes.html).
+- [SBSeg 2026 — portal CTA e calendário](https://hotcrp.c3sl.ufpr.br/), [chamada SBSeg 2026](https://www.sbseg2026.uff.br/chamadas/sf/) e [instruções do SBSeg 2025 como apoio histórico](https://doc-artefatos.github.io/sbseg2025/revinstrucoes.html).
 - [USENIX Security 2025 — Call for Artifacts](https://www.usenix.org/conference/usenixsecurity25/call-for-artifacts), [submissão](https://secartifacts.github.io/usenixsec2025/instructions), [selos](https://secartifacts.github.io/usenixsec2025/badges) e [guia de avaliação](https://secartifacts.github.io/usenixsec2025/guide).
 - [MODELS 2025 — Artifact Evaluation](https://conf.researchr.org/track/models-2025/models-2025-artifact-evaluation).
