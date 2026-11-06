@@ -128,6 +128,10 @@ O aluno deve conferir as fontes, explicar os fluxos e validar a síntese antes d
 
 Fontes revistas em 05 e 06/11/2026. A versão anterior permanece no histórico Git.
 
+## Enunciado original
+
+O [enunciado fornecido pelo aluno e a matriz de conformidade](ENUNCIADO_E_CONFERENCIA.md) registram os requisitos (a) e (b) e apontam exatamente onde cada componente aparece na entrega. O enunciado não estabelece restrição geográfica.
+
 ## Arquivos complementares para apresentação e entrega
 
 - [Roteiro curto de apresentação](ROTEIRO_APRESENTACAO.md)
