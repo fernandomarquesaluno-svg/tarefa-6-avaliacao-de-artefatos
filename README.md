@@ -12,10 +12,11 @@ Pesquisa documental assistida por ChatGPT/Codex (OpenAI), que auxiliou a localiz
 
 ## Rastreabilidade dos elementos da Atividade 6 (revisão de 06/11/2026)
 
-Os materiais acadêmicos anteriores descrevem a atividade como uma **comparação de três processos de avaliação de artefatos**, com fluxogramas, tabela técnica e análise crítica. **O enunciado primário do professor não foi recuperado nesta auditoria**; portanto, não é possível assegurar que exista ou não uma restrição geográfica. Este trabalho preserva o recorte comparativo já selecionado — SBSeg 2026, USENIX Security 2025 e MODELS 2025 — porque os três avaliam artefatos associados a artigos científicos e possuem regras públicas.
+O **enunciado original foi fornecido pelo aluno em 06/11/2026** e solicita: (1) pesquisar e comparar, com IA, três processos de avaliação de artefatos descritos em artigos científicos ou documentos disponíveis na Internet; (a) representar graficamente o processo completo de cada método, da entrada até o resultado final; e (b) apresentar tabela com características técnicas e/ou etapas, diferenças, semelhanças, vantagens e limitações. **O texto não estabelece restrição geográfica.** Por isso, permanecem os três processos diretamente comparáveis: SBSeg 2026, USENIX Security 2025 e MODELS 2025.
 
 | Elemento da entrega | Evidência publicada |
 |---|---|
+| Pesquisa com auxílio de IA sobre três processos | Registro de IA e três seções com fontes oficiais |
 | Três processos identificados e documentados | Seções 1–3 e fontes oficiais de cada edição |
 | Fluxograma completo de cada método (entrada → decisão) | Três diagramas Mermaid nas seções 1–3, incluindo ramificações |
 | Características técnicas e etapas | [Tabela técnica ampliada](TABELA_COMPARATIVA.md): escopo, entrada, etapas, evidências e critérios |
